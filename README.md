@@ -16,6 +16,7 @@ DOI: 10.5281/zenodo.5048289
 #### bash scripts   
 conversion to CG and minimization: CG_Convert_Minimisation_1joc.sh    
 equilibration and production run: Equilbration_Production.sh    
+reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh.   
 
 #### martini scripts    
 martini.py    
@@ -34,6 +35,10 @@ production_1500ns.mdp
 
 #### python plotting and analysis scripts  
 Figure XX: plot_min_dist.py    
+
+#### trajectories
+can be found at Zenodo: LINK    
+
 
 
 
