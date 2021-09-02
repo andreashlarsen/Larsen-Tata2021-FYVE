@@ -1,0 +1,20 @@
+# RESTART
+
+UNITS TIME=ns LENGTH=nm
+
+center_top: CENTER ATOMS=5,1351
+
+center_bottom: CENTER ATOMS=362,1708
+
+angle: ZANGLES ATOMS1=center_bottom,center_top MEAN
+
+# check distance to ensure that the atoms are right
+
+dist_top:    DISTANCE ATOMS=5,1351
+dist_bottom: DISTANCE ATOMS=362,1708
+dist1:       DISTANCE ATOMS=5,362
+dist2:       DISTANCE ATOMS=1351,1708
+dist_vector: DISTANCE ATOMS=center_bottom,center_top
+
+PRINT ARG=angle.mean,dist_bottom,dist_top,dist1,dist2,dist_vector STRIDE=1 FILE=ANGLE
+
