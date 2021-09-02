@@ -12,7 +12,7 @@ DOI: 10.5281/zenodo.5048289
 #### initial structures    
 1joc_trunc: truncated, not rotated, from PDB 1JOC.   
 1joc_rot_cent.pdb: truncated, rotated, centered (rotation number 7 out of 14)
-final_cg2at_aligned.pdb: initial AT structure after CG2AT (available at Zenodo: LINK)    
+final_cg2at_aligned.pdb: initial AT structure after CG2AT (available at Zenodo: https://zenodo.org/record/5362218#.YTDSpS0Rpqs)    
 
 #### bash scripts   
 conversion to CG and minimization: CG_Convert_Minimisation_1joc.sh    
@@ -68,7 +68,7 @@ SI Figure S1: xxx.py
 SI Figure S3: plot_rmsd.py    
 
 #### trajectories
-can be found at Zenodo: LINK   
+can be found at Zenodo: https://zenodo.org/record/5362218#.YTDSpS0Rpqs   
 
 
 
