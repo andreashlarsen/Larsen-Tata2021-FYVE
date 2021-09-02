@@ -12,7 +12,7 @@ DOI: 10.5281/zenodo.5048289
 #### initial structures    
 1joc_trunc: truncated, not rotated, from PDB 1JOC.   
 1joc_rot_cent.pdb: truncated, rotated, centered (rotation number 7 out of 14)
-final_cg2at_aligned.pdb: initial AT structure after CG2AT    
+final_cg2at_aligned.pdb: initial AT structure after CG2AT (available at Zenodo: LINK)    
 
 #### bash scripts   
 conversion to CG and minimization: CG_Convert_Minimisation_1joc.sh    
