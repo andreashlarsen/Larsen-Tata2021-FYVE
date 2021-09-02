@@ -11,7 +11,8 @@ DOI: 10.5281/zenodo.5048289
 
 #### initial structures    
 1joc_trunc: truncated, not rotated, from PDB 1JOC.   
-1joc_rot_cent.pdb: truncated, rotated, centered (rotation number 7 out of 14).   
+1joc_rot_cent.pdb: truncated, rotated, centered (rotation number 7 out of 14)
+final_cg2at_aligned.pdb: initial AT structure after CG2AT    
 
 #### bash scripts   
 conversion to CG and minimization: CG_Convert_Minimisation_1joc.sh    
@@ -21,8 +22,11 @@ analyze PMF: PMF_analysis.sh
 reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh 
 CG2AT: LOGBOOK_CG2AT.sh    
 AT sims, 1st repeat: Flow_FYVE_AT.sh    
-AT sims, 2nd and 3rd repeat: Flow_FYVE_repeat.sh    
+AT sims, 2nd and 3rd repeat: Flow_FYVE_repeat.sh   
+continue AT sims: continue.sh    
+extend AT sims: extend.sh    
 Flow_initial_frames.sh    
+analyze AT sims: LOGBOOK_FYVE.sh    
 
 #### martini scripts    
 martini.py    
@@ -38,14 +42,23 @@ martini_v2.0_POP1_01.itp
 martini_v2.0_POPC_02.itp    
 
 #### MD parameter files (.mdp)    
-minim.mdp    
-equilibration_1joc.mdp    
-production_1500ns.mdp  
+minim.mdp (CG)    
+equilibration_1joc.mdp (CG)    
+production_1500ns.mdp (CG)    
 pull.mdp (preparation of umbrella sampling)    
 umbrella.mdp    
+min.mdp (AT)    
+nvt.mdp (AT)    
+npt.mdp (AT)    
+prod.mdp (AT)    
 
-#### analysis data files (.xvg)
+#### plumed files
+plumed.dat    
+
+#### analysis data files (.xvg and plumed output files)
 PMF, energy: bsResult.xvg    
+angle: ANGLE    
+
 
 #### python plotting and analysis scripts  
 Figure 2B: plot_min_dist.py    
