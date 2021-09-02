@@ -20,7 +20,9 @@ generate PMF: PMF_up.sh
 analyze PMF: PMF_analysis.sh    
 reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh 
 CG2AT: LOGBOOK_CG2AT.sh    
-
+AT sims, 1st repeat: Flow_FYVE_AT.sh    
+AT sims, 2nd and 3rd repeat: Flow_FYVE_repeat.sh    
+Flow_initial_frames.sh    
 
 #### martini scripts    
 martini.py    
