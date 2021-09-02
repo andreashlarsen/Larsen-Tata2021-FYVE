@@ -19,6 +19,8 @@ equilibration and production run: Equilbration_Production.sh
 generate PMF: PMF_up.sh    
 analyze PMF: PMF_analysis.sh    
 reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh 
+CG2AT: LOGBOOK_CG2AT.sh    
+
 
 #### martini scripts    
 martini.py    
