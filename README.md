@@ -16,11 +16,16 @@ DOI: 10.5281/zenodo.5048289
 #### bash scripts   
 conversion to CG and minimization: CG_Convert_Minimisation_1joc.sh    
 equilibration and production run: Equilbration_Production.sh    
-reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh.   
+generate PMF: PMF_up.sh    
+analyze PMF: PMF_analysis.sh    
+reduce size of CG trajectories for upload to Zenodo: reduced_trajectory.sh 
 
 #### martini scripts    
 martini.py    
 insane.py   
+
+#### help scripts
+for preparation of umbrella sampling: extract_frames.py    
 
 #### itp files
 martini_v2.2.itp    
@@ -31,13 +36,22 @@ martini_v2.0_POPC_02.itp
 #### MD parameter files (.mdp)    
 minim.mdp    
 equilibration_1joc.mdp    
-production_1500ns.mdp    
+production_1500ns.mdp  
+pull.mdp (preparation of umbrella sampling)    
+umbrella.mdp    
+
+#### analysis data files (.xvg)
+PMF, energy: bsResult.xvg    
 
 #### python plotting and analysis scripts  
-Figure XX: plot_min_dist.py    
+Figure 2B: plot_min_dist.py    
+Figure 2D: plot_PMF_v2.py    
+Figure 4: plot_dist_hbond_angle.py    
+SI Figure S1: xxx.py    
+SI Figure S3: plot_rmsd.py    
 
 #### trajectories
-can be found at Zenodo: LINK    
+can be found at Zenodo: LINK   
 
 
 
